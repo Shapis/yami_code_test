@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Project/Scripts/MyClass.cs" />
      <Compile Include="Assets/Project/Scripts/CameraScript.cs" />
      <Compile Include="Assets/Project/Scripts/MouseMovement.cs" />
      <Compile Include="Assets/Project/Scripts/KeyboardMovement.cs" />
+     <Compile Include="Assets/Project/Scripts/CollisionChecker.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/hpsilva/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

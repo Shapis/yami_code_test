@@ -22,7 +22,6 @@ public class CameraScript : MonoBehaviour
         screenOrigin = Camera.main.ScreenToWorldPoint(new Vector2(0, 0));
     }
 
-    // Checks if the game object is within bounds of the camera.
     private bool IsOutOfBounds(Vector3 pos)
     {
         bool _isOutOfBounds = false;

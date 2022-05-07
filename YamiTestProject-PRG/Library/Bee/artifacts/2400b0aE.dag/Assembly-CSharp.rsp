@@ -332,8 +332,10 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Project/Scripts/CameraScript.cs"
+"Assets/Project/Scripts/CollisionChecker.cs"
 "Assets/Project/Scripts/KeyboardMovement.cs"
 "Assets/Project/Scripts/MouseMovement.cs"
+"Assets/Project/Scripts/MyClass.cs"
 -langversion:9.0
 
 /deterministic
