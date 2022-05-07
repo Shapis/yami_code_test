@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Project/Scripts/CameraScript.cs" />
      <Compile Include="Assets/Project/Scripts/MouseMovement.cs" />
      <Compile Include="Assets/Project/Scripts/KeyboardMovement.cs" />
     <Reference Include="UnityEngine">

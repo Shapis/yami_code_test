@@ -18,13 +18,13 @@ public class KeyboardMovement : MonoBehaviour
         {
             transform.position += new Vector3(0, 10 * Time.deltaTime, 0);
         }
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.A))
-        {
-            transform.position += new Vector3(-10 * Time.deltaTime, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             transform.position += new Vector3(0, -10 * Time.deltaTime, 0);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            transform.position += new Vector3(-10 * Time.deltaTime, 0, 0);
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
